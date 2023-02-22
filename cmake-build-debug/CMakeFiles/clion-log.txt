@@ -1,0 +1,32 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/stephanosterburg/Projects/CppND-Route-Planning-Project -B /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/cmake-build-debug
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake:303 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  CMakeLists.txt:6 (project)
+
+
+CMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findio2d.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "io2d", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "io2d" with any of
+  the following names:
+
+    io2dConfig.cmake
+    io2d-config.cmake
+
+  Add the installation prefix of "io2d" to CMAKE_PREFIX_PATH or set
+  "io2d_DIR" to a directory containing one of the above files.  If "io2d"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/cmake-build-debug/CMakeFiles/CMakeError.log".
